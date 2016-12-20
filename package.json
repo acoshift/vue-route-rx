@@ -1,6 +1,6 @@
 {
   "name": "vue-route-rx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make $route observable for Vue",
   "main": "vue-route-rx.js",
   "repository": {

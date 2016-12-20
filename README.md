@@ -21,7 +21,7 @@ Vue.use(VueRx, { Observable, Subscription })
 Vue.use(VueRouteRx, { BehaviorSubject })
 
 const router = new VueRouter(...)
-VueRouterRx.use(router)
+VueRouteRx.use(router)
 ```
 
 ### Global Script
