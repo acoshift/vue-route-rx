@@ -1,0 +1,22 @@
+{
+  "name": "vue-route-rx",
+  "version": "1.0.0",
+  "description": "Make $route observable for Vue",
+  "main": "vue-route-rx.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acoshift/vue-route-rx.git"
+  },
+  "keywords": [
+    "vue",
+    "rx",
+    "rxjs",
+    "vue-router"
+  ],
+  "author": "Thanatat Tamtan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acoshift/vue-route-rx/issues"
+  },
+  "homepage": "https://github.com/acoshift/vue-route-rx#readme"
+}
