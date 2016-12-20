@@ -32,9 +32,11 @@ Includes vue-route-rx after Vue.js and RxJS
 
 ```js
 Vue.component('foo', {
-  subscriptions: {
-    msg: this.$$route
-      .flatMap((route) => Message.get(route.params.id))
+  subscriptions () {
+    return {
+      msg: this.$$route
+        .flatMap((route) => Message.get(route.params.id))
+    }
   }
 })
 ```
